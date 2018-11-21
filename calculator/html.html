@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Biền's calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="calculator">	
+		<hr>
+		<div class="display"> <p id="output">0.0</p> </div>
+		<div class="display"> <p id="input">0.0</p> </div>
+		<button onclick="functnumber(1)">1</button>
+		<button onclick="functnumber(2)">2</button>
+		<button onclick="functnumber(3)">3</button>
+		<button onclick="functadd()">+</button>
+		<br>
+		<button onclick="functnumber(4)">4</button>
+		<button onclick="functnumber(5)">5</button>
+		<button onclick="functnumber(6)">6</button>
+		<button onclick="functsub()">-</button>
+		<br>
+		<button onclick="functnumber(7)">7</button>
+		<button onclick="functnumber(8)">8</button>
+		<button onclick="functnumber(9)">9</button>
+		<button onclick="functmul()">*</button>
+		<br>
+		<button onclick="functdot()">.</button>
+		<button onclick="functnumber(0)">0</button>
+		<button onclick="functequal()">=</button>
+		<button onclick="functdiv()">/</button>
+		<br>
+		<button id="acbutton" onclick="functAC()">AC</button>
+		<button onclick="functmod()">%</button>
+		<script src="javascript.js">
+		</script>
+	</div>
+</body>
+</html>
+	
